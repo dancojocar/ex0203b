@@ -32,7 +32,7 @@ for (let i = 0; i < 10; i++) {
         id: i + 1,
         name: carNames[getRandomInt(0, carNames.length - 1)],
         model: carModels[getRandomInt(0, carModels.length - 1)],
-        status: statusTypes[2],
+        status: statusTypes[1],
         year: getRandomInt(1990, 2018),
         km: getRandomInt(1, 3000)
     });
